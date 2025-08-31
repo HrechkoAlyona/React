@@ -1,0 +1,29 @@
+.rating-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.rating-image {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+}
+
+.buttons button:hover {
+  background-color: #45a049;
+}
+
+.buttons button.active {
+  background-color: #ff9800; /* подсветка для выбранной кнопки */
+  color: white;
+  font-weight: bold;
+}
