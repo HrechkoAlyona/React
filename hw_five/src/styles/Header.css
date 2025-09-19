@@ -1,0 +1,10 @@
+.header {
+  position: absolute; 
+  top: 20px;
+  left: 20px;
+}
+
+.spotify-logo {
+  width: 140px;  
+  height: auto;
+}

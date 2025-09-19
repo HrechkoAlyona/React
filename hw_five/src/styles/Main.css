@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #1ED760;
+}
+
+/* LIFE IS WASTED ON THE LIVING */
+.title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%; 
+  letter-spacing: 0;
+  text-align: center;
+  color: #1ED760;
+  margin-bottom: 40px;
+}
+
+/* Sign in with */
+.signin-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.signin,
+.with {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #1ED760;
+  margin: 0;
+}
+
+.with {
+  margin-top: 6px; 
+}
+
+/* Контейнер для кнопок */
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  width: 446px;
+  height: 175px;
+  border: 3px solid #1ED760;
+  border-radius: 65px;
+
+  padding: 16px;
+}
