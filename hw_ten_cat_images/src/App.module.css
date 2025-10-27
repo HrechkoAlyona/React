@@ -1,0 +1,18 @@
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; 
+}
+
+
+.container {
+  background-color: #dddcdcaf; 
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
