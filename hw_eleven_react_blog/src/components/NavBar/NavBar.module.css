@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #282c34;
+  padding: 15px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active {
+  border-bottom: 2px solid #61dafb;
+}
