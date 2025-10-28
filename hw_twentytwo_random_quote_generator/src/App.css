@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5e6ca, #e8d5b5, #d5b895);
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a3f35;
+  text-align: center;
+  transition: background 0.5s ease;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #3e2f23;
+  margin-bottom: 25px;
+}
+
+/* Кнопка в кофейно-коричневых тонах */
+button {
+  background-color: #a67c52;
+  color: #fffdf9;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(166, 124, 82, 0.3);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #c59b72;
+  transform: translateY(-2px);
+}
+
+/* Цитата и автор */
+p {
+  margin: 10px 0;
+  color: #4a3f35;
+}
+
+.author {
+  font-style: italic;
+  opacity: 0.8;
+}
