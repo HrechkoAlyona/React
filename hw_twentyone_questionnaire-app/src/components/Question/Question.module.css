@@ -1,0 +1,26 @@
+.questionBlock {
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.questionText {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.optionLabel {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.optionInput {
+  margin-right: 8px;
+}

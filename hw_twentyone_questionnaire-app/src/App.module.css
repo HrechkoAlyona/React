@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.questionsContainer {
+  text-align: left;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  font-weight: bold;
+}
