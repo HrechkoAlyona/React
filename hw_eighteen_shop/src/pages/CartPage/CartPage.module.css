@@ -1,0 +1,38 @@
+.cartSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 0;
+  background-color: #fff;
+  gap: 40px;
+  max-width: 1420px;
+}
+.cartCards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+.cartLogic {
+  display: flex;
+  justify-content: space-between;
+  width: 1420px;
+}
+.summ {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fafafa;
+  padding: 28px;
+}
+.summ ul {
+  color: #000000b2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.summ h2 {
+  margin: 0 auto;
+}

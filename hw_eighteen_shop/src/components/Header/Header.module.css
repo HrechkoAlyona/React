@@ -1,0 +1,13 @@
+.header {
+  padding: 43px 0;
+  background-color: #3b3c3d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+}
